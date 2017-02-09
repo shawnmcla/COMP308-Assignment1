@@ -1,9 +1,18 @@
-var express = require('express');
-var router = express.Router();
+let express = require('express');
+let router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/', (req, res, next) => {
+  let currentDate = new Date();
+  res.render('index', {
+    title: 'Express',
+    date: currentDate.toLocaleString()
+  });
+});
+
+/* GET about page. */
+router.get('/about', (req, res, next) => {
+  res.render('index', { title: 'About' });
 });
 
 module.exports = router;
