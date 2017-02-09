@@ -1,3 +1,10 @@
+/**
+ * File name: app.js
+ * Author: Shawn McLaughlin <shawnmcdev@gmail.com>
+ * Site: https://shawnmcla-portfolio.herokuapp.com/
+ * Description: Web App entry point. Initializes modules.
+ */
+
 // include all of our middleware - internal/external modules
 let express = require('express');
 let path = require('path');
@@ -38,7 +45,7 @@ app.use((err, req, res, next) => {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', {'title': 'Error'});
 });
 
 module.exports = app;

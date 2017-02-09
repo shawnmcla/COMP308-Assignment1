@@ -1,3 +1,10 @@
+/**
+ * File name: index.js
+ * Author: Shawn McLaughlin <shawnmcdev@gmail.com>
+ * Site: https://shawnmcla-portfolio.herokuapp.com/
+ * Description: Routing instructions for URLs
+ */
+
 let express = require('express');
 let router = express.Router();
 

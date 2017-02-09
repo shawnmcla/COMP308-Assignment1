@@ -1,5 +1,10 @@
-/* custom css */
-
+/**
+ * File name: app.css
+ * Author: Shawn McLaughlin <shawnmcdev@gmail.com>
+ * Site: https://shawnmcla-portfolio.herokuapp.com/
+ * Description: Custom stylings for the website.
+ */
+ 
 .navbar{
     background-color: #000000;
     border-radius: 0px;

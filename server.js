@@ -1,6 +1,14 @@
 #!/usr/bin/env node
 
 /**
+ * File name: server.js
+ * Author: Shawn McLaughlin <shawnmcdev@gmail.com>
+ * Site: https://shawnmcla-portfolio.herokuapp.com/
+ * Description: Generated with express-generator.
+ * Handles http server initialization.
+ */
+
+/**
  * Module dependencies.
  */
 
