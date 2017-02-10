@@ -71,3 +71,11 @@ h1, h2, h3{
 p{
   font-family: 'Nunito Sans', sans-serif;
 }
+
+.btn-default{
+  background:#FFF;
+  text-shadow: none;
+}
+.btn-default:hover{
+  background:#EEE;
+}
