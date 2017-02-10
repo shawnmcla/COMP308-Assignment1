@@ -11,10 +11,7 @@ let router = express.Router();
 /* GET home page. */
 router.get('/', (req, res, next) => {
   let currentDate = new Date();
-  res.render('content/index', {
-    title: 'Home',
-    date: currentDate.toLocaleString()
-  });
+  res.render('content/index', { title: 'Home' });
 });
 
 /* GET about page. */

@@ -9,10 +9,33 @@ Description: Content EJS file for home page.
 <div class="container">
   <div class="row">
     <div class="col-md-offset-3 col-md-6">
-        <h1><%= title %></h1>
-        <p>Welcome to <%= title %></p>
-        <p>Homepage</p>
+      <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome</h1>
+        <p>Greetings. My name is Shawn McLaughlin, welcome to my website!</p>
+      </div>
+    </div>
     </div>
   </div>
 </div>
+
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>About</h2>
+          <p>My name is Shawn McLaughlin. I am a Software Egineering student at Centennial College in Toronto, Canada&hellip;</p>
+          <p><a class="btn btn-default" href="#" role="button">Read more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Projects</h2>
+          <p>Here lies information about certain projects I have been or currently am working on, either for school or personal.</p>
+          <p><a class="btn btn-default" href="#" role="button">View projects &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Contact</h2>
+          <p>Feel free to contact me for business purposes or other. I can be reached by e-mail directly or using the contact form</p>
+          <p><a class="btn btn-default" href="#" role="button">Contact me &raquo;</a></p>
+        </div>
+      </div>
 <% include ../partials/footer.ejs %>
