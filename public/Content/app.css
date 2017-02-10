@@ -10,7 +10,13 @@
    background: #EEE;
  }
 
- /* top nav bar styling */
+
+ /* 
+
+ top nav bar styling 
+
+ */
+ /* override bootstrap stylings */
 .navbar{
     background-color: #002500;
     border-radius: 0px;
@@ -37,7 +43,11 @@
 }
 
 
-/* styling for logo area of navbar */
+/* 
+
+styling for logo area of navbar
+
+ */
 .navbar-brand {
   padding: 0px;
 }
