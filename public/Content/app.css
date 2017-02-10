@@ -59,3 +59,15 @@ styling for logo area of navbar
   width: auto;
 }
 
+
+/*
+
+content area stylings
+
+*/
+h1, h2, h3{
+  font-family: 'Vesper Libre', serif;
+}
+p{
+  font-family: 'Nunito Sans', sans-serif;
+}
