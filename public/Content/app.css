@@ -4,8 +4,6 @@
  * Site: https://shawnmcla-portfolio.herokuapp.com/
  * Description: Custom stylings for the website.
  */
- 
- /* body background styling */
  body{
    background: #EEE;
  }
@@ -78,4 +76,27 @@ p{
 }
 .btn-default:hover{
   background:#EEE;
+}
+
+
+/*
+
+sticky footer styles from bootstrap examples
+http://getbootstrap.com/examples/sticky-footer/
+
+*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 25px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 25px;
+  width:100%;
+  text-align:center;
 }
