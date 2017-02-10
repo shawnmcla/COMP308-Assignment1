@@ -33,7 +33,7 @@
   transition:color .2s ease-out, background .2s ease-in;
 }
 .navbar-nav li.active{
-  background: #777;
+  background: #333;
 }
 .navbar-nav li.active a{
   color:#BBB;
