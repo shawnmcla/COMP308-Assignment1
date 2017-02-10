@@ -6,6 +6,8 @@ Description: Partial EJS file for errors.
 -->
 <% include partials/header.ejs %>
 <!-- Displays error messages to the user, should an error occur -->
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
+<div class="center-block">
+    <h1 class="text-center"><%= error.status %> <%= message %></h1>
+    <img alt="drawing of Shawn" class="center-block img-responsive" src="/Assets/images/me.png"/>
+</div>
 <% include partials/footer.ejs %>
