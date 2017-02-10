@@ -32,10 +32,13 @@
   -webkit-transition:color .2s ease-out, background .2s ease-in;
   transition:color .2s ease-out, background .2s ease-in;
 }
-.navbar-nav li.active a{
-  color:#AAA
+.navbar-nav li.active{
+  background: #777;
 }
-.navbar a:hover { color:#AAA}
+.navbar-nav li.active a{
+  color:#BBB;
+}
+.navbar a:hover { color:#BBB}
 /* remove default bootstrap background on hover */
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
